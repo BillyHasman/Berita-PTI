@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="login.component.css">
+<div *ngIf="!isSignedIn">
+  <div class="screen-1 col-sm-3 col-10" style="height:auto">
+    <img src="https://i.ibb.co/n75HyyD/LOGO.png" width="auto" height="auto" viewbox="0 0 640 480" xml:space="preserve"> 
+    <div class="email">
+      <label for="email col-sm-3 col-10">Email Address</label>
+      <div class="sec-2">
+        <i name="mail-outline"></i> 
+        <input type="text" #emailSignIn placeholder="Email"/>
+      </div>
+    </div>
+    <div class="password">
+      <label for="password">Password</label>
+      <div class="sec-2">
+        <i name="lock-closed-outline"></i> 
+    <input type="text" #passwordSignIn placeholder="Password" />
+    </div>
+  </div>
+  <button class="login" (click)="onSignin(emailSignIn.value,passwordSignIn.value)">Sign in</button>
+</div>
+</div>
+<div *ngIf="isSignedIn">
+    {{gotoBlogs()}}
+</div>
+<router-outlet></router-outlet>
