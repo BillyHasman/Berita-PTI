@@ -36,10 +36,10 @@ Before you launch, make sure you have:
 Want to contribute? Great!
 
 ## Fork the Project
-Create your Feature Branch (**git checkout -b feature/AmazingFeature**)
-Commit your Changes (**git commit -m 'Add some AmazingFeature'**)
-Push to the Branch (**git push origin feature/AmazingFeature**)
-Open a Pull Request
+1. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+2. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Push to the Branch (`git push origin feature/AmazingFeature`)
+4. Open a Pull Request
 
 ## Issue Tracking
 If you find an issue, please report it via the issue tracker, with a detailed description of the problem.
