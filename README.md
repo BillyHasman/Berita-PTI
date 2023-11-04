@@ -1,27 +1,48 @@
-# Login2
+# Berita-PTI: The Angular Newsroom
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+Dive into the digital newsroom with Berita-PTI, an Angular.js-driven news application developed as the capstone project for the 'Introduction to Internet Technology' course. Featuring news by category and a user authentication system, it's designed to keep you informed and engaged.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To get a local copy up and running, follow these simple steps:
 
-## Code scaffolding
+```bash
+# Clone the repository
+git clone https://github.com/your-username/Berita-PTI.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Navigate to the project directory
+cd Berita-PTI
 
-## Build
+# Install dependencies
+npm install
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Serve the application on a local development server
+ng serve
+```
+Open http://localhost:4200/ in your browser to view the application.
 
-## Running unit tests
+## Prerequisites
+Before you launch, make sure you have:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js
+- npm package manager
+- Angular CLI (npm install -g @angular/cli)
 
-## Running end-to-end tests
+## Features
+- **Browse News by Category**: Select from a variety of categories to read news that interests you.
+- **User Authentication**: Secure login feature to create a personalized news reading experience.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+##Contributing
+Want to contribute? Great!
 
-## Further help
+## Fork the Project
+Create your Feature Branch (**git checkout -b feature/AmazingFeature**)
+Commit your Changes (**git commit -m 'Add some AmazingFeature'**)
+Push to the Branch (**git push origin feature/AmazingFeature**)
+Open a Pull Request
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Issue Tracking
+If you find an issue, please report it via the issue tracker, with a detailed description of the problem.
+
+##Final Thoughts
+> "Every line of code in Berita-PTI paints a picture of the world. As you clone, run, and develop, you're not just pushing code; you're bringing information to fingertips. Join in, contribute, and make a difference in how news is experienced!"
